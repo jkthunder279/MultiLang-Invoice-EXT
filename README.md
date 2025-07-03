@@ -23,18 +23,6 @@ This project automates invoice processing by extracting key fields such as invoi
 
 ---
 
-## Tech Stack
-
-| Category       | Tools / Libraries                         |
-|----------------|--------------------------------------------|
-| Language       | Python 3.x                                 |
-| OCR Engine     | Tesseract OCR / Google Cloud Vision API    |
-| Language Detection | langdetect / spaCy / CLD3              |
-| NLP & Parsing  | Regex / spaCy / Keyword dictionaries       |
-| Output Format  | JSON, CSV                                  |
-| Optional API   | FastAPI / Flask                            |
-
----
 
 ## Output
 

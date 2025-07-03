@@ -1,29 +1,29 @@
 # MultiLang-Invoice-EXT
-# 🧾 Multi-Language Invoice Extraction
+#  Multi-Language Invoice Extraction
 
 A robust and scalable tool to extract structured information from invoices written in multiple languages using OCR, language detection, and NLP-based parsing.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project automates invoice processing by extracting key fields such as invoice number, date, total amount, and vendor from invoices in various languages. It leverages OCR technology, language detection libraries, and rule-based or ML-based field extraction to handle diverse formats and linguistic styles.
 
 ---
 
-## 🔧 Features
+##  Features
 
-- 🌐 Multi-language support (English, German, Spanish, French, Hindi, and more)
-- 🧠 Automatic language detection for multilingual documents
-- 🔍 OCR-based text extraction (Tesseract / Google Vision API)
-- 🧾 Structured field extraction: invoice number, date, total, vendor, etc.
-- 📤 Outputs in JSON or CSV format
-- 📥 Supports PDF and image-based invoices
-- 🔄 Easily integratable with accounting or ERP systems
+-  Multi-language support (English, German, Spanish, French, Hindi, and more)
+-  Automatic language detection for multilingual documents
+-  OCR-based text extraction (Tesseract / Google Vision API)
+-  Structured field extraction: invoice number, date, total, vendor, etc.
+-  Outputs in JSON or CSV format
+-  Supports PDF and image-based invoices
+-  Easily integratable with accounting or ERP systems
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category       | Tools / Libraries                         |
 |----------------|--------------------------------------------|
@@ -36,7 +36,7 @@ This project automates invoice processing by extracting key fields such as invoi
 
 ---
 
-## 📂 Project Structure
+## Output
 
 {
   "invoice_number": "INV-2024-001",

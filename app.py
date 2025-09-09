@@ -18,7 +18,7 @@ if not GOOGLE_API_KEY:
 genai.configure(api_key=GOOGLE_API_KEY)
 
 #Loading Gemini model
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 #Function to query Gemini
 def get_gemini_response(system_prompt, image_parts, user_query):
@@ -81,3 +81,4 @@ if st.button("Tell me about the invoice"):
             st.error(f"An error occurred: {e}")
     else:
         st.warning("Please upload an invoice and enter your question.")
+

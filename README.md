@@ -7,9 +7,11 @@ A robust and scalable tool to extract structured information from invoices writt
 
 ##  Overview
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project automates invoice processing by extracting key fields such as invoice number, date, total amount, and vendor from invoices in various languages. It leverages OCR technology, language detection libraries, and rule-based or ML-based field extraction to handle diverse formats and linguistic styles.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  Features
 
